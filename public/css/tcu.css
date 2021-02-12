@@ -1,0 +1,43 @@
+#tcu {
+	display: table-cell;
+	vertical-align:bottom;
+	height:98vh;
+	border-style:solid;
+	border-width: 1px;
+	border-color: black;
+}
+
+table tr:nth-child(even) {
+	background: #FAEBD7;
+}
+table tr:nth-child(odd) {
+	background: white;
+}
+
+.other {
+	display: table-cell;
+	vertical-align:bottom;
+	height:98vh;
+	border-style:solid;
+	border-width: 1px;
+	border-color: black;
+}
+
+.user-message {
+	margin:2px;
+	padding:2px;
+	width:48.8vw;
+	height:1em;
+}
+
+.other-message {
+	margin:2px;
+	padding:2px;
+	width:48.8vw;
+}
+
+:focus {
+	border-style:solid;
+	border-width: 2px;
+	border-color: green;
+}
